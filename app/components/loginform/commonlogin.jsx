@@ -35,7 +35,7 @@ const handleSubmit = async (e) => {
         console.log(res)
 
         toast.success("Log Successful");
-router.push("/userinfo");
+router.push("/dashboard");
         
       }
       
@@ -91,7 +91,7 @@ return (<div className="grid place-items-center h-screen bg-gradient-to-r from-v
 </div>
           
           
-          <button  className="bg-blue-400 text-white font-bold cursor-pointer px-6 py-2 hover:bg-violet-700">Login</button>
+          <button  className="bg-blue-400 text-white font-bold cursor-pointer px-6 py-2 hover:bg-violet-700" href={"/dashboard"}>Login</button>
           {error && (
           <div className="bg-red-500 text-white w-fit text-sm py-1 px-3 rounded-md mt-2">
               {error}
