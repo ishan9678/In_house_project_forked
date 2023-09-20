@@ -41,9 +41,9 @@ if(leaveType==="" || visitingPlace==="" || reason==="" || fromDate==="" || toDat
   }
 
   return (
-    <Fragment>
-    <div>
-      <body>
+    
+    
+     
       <div className="bodyofform">
         <form onSubmit={onSubmitform}>
       
@@ -89,9 +89,9 @@ if(leaveType==="" || visitingPlace==="" || reason==="" || fromDate==="" || toDat
           <button type="submit" className="submit">Submit</button>
         </form>
         </div>
-      </body>
-    </div>
-    </Fragment>
+      
+   
+    
   )
 }
 
